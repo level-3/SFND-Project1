@@ -19,5 +19,10 @@ add_executable (quizCluster cluster.cpp ../../render/render.cpp)
 target_link_libraries (quizCluster ${PCL_LIBRARIES})
 
 
+#add_executable (quizCluster3d cluster3d.cpp ../../render/render.cpp)
+#target_link_libraries (quizCluster3d ${PCL_LIBRARIES})
+
+
+
 
 
